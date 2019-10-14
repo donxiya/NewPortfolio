@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
-  color: rgba(0, 0, 0, 0.7); }
+  color: rgba(36, 36, 36, 0.8); }
   @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
@@ -395,7 +395,7 @@ body.offcanvas {
     .colorlib-services,
     .colorlib-contact {
       padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-bottom: 0em; } }
 
 .author-img {
   background-size: cover;
@@ -404,7 +404,7 @@ body.offcanvas {
   position: relative; }
 
 .colorlib-heading {
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 4em;
   font-weight: 700;
   text-transform: uppercase;
@@ -420,9 +420,9 @@ body.offcanvas {
 .heading-meta {
   margin-bottom: 15px;
   display: block;
-  font-size: 10px;
+  font-size: 15px;
   text-transform: uppercase;
-  color: #999999;
+  color: #4d4d4d;
   font-weight: 500;
   letter-spacing: 5px; }
 
@@ -839,12 +839,12 @@ body.offcanvas {
   .colorlib-feature .colorlib-text {
     padding-left: 120px;
     width: 100%; }
-    .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
+    .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 p {
       margin: 0;
       padding: 0; }
     .colorlib-feature .colorlib-text h3 {
       font-weight: 500;
-      margin-bottom: 20px;
+      margin-bottom: 0;
       color: rgba(0, 0, 0, 0.7);
       font-size: 14px;
       letter-spacing: 3px;
@@ -941,7 +941,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background: #464646;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -972,8 +972,9 @@ body.offcanvas {
           color: #333333; }
     .project .desc h3 {
       font-family: "Quicksand", Arial, sans-serif;
-      font-size: 16px;
+      font-size: 30px;
       font-weight: 500;
+      color: #fff;
       text-transform: uppercase;
       letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -990,7 +991,7 @@ body.offcanvas {
     .project .desc span {
       display: block;
       color: rgba(255, 255, 255, 0.7);
-      font-size: 13px;
+      font-size: 16px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
